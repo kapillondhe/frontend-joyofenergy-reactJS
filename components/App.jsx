@@ -3,6 +3,7 @@ import { Sidebar } from "./Sidebar.jsx";
 import { EnergyConsumption } from "./EnergyConsumption.jsx";
 import { getReadings } from "../utils/reading";
 
+
 export const App = () => {
   const [readings, setReadings] = useState();
 
